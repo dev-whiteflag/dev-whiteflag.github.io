@@ -7,12 +7,18 @@
   <title>Brenno Fagundes - Portfolio</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--Stylesheet de Distribuições-->
   <link rel="stylesheet" href="./dist/normalize/normalize.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Lato:200|Muli:600i&display=swap" rel="stylesheet">
   <link type="text/css" rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/froala-design-blocks/2.0.0/css/froala_blocks.min.css">
+  <link rel="stylesheet" href="./dist/slick/slick.css">
+  <link rel="stylesheet" href="./dist/slick/slick-theme.css">
+
+  <!--Stylesheets Pessoais-->
   <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/animatedtitle.css">
   <link rel="stylesheet" href="./css/colors.css">
@@ -37,7 +43,7 @@
 
         <ul class="navbar-nav justify-content-end col-sm-5 order-lg-12 d-none d-md-flex">
           <li class="nav-item">
-            <a class="nav-link" href="https://www.froala.com" contenteditable="false"
+            <a class="nav-link" href="https://twitter.com/imwhiteflag" contenteditable="false"
               style="outline: none; display: inline-block;"><svg class="svg-inline--fa fa-twitter fa-w-16"
                 aria-hidden="true" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512" data-fa-i2svg="">
@@ -47,7 +53,7 @@
               </svg><!-- <i class="fab fa-twitter"></i> --></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://www.froala.com" contenteditable="false"
+            <a class="nav-link" href="https://github.com/dev-whiteflag" contenteditable="false"
               style="outline: none; display: inline-block;"><svg class="svg-inline--fa fa-github fa-w-16"
                 aria-hidden="true" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 496 512" data-fa-i2svg="">
@@ -57,14 +63,14 @@
               </svg><!-- <i class="fab fa-github"></i> --></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://www.froala.com" contenteditable="false"
-              style="outline: none; display: inline-block;"><svg class="svg-inline--fa fa-slack fa-w-14"
-                aria-hidden="true" data-prefix="fab" data-icon="slack" role="img" xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 448 512" data-fa-i2svg="">
+            <a class="nav-link" href="mailto:dev.whiteflag@gmail.com" contenteditable="false"
+              style="outline: none; display: inline-block;"><svg aria-hidden="true" focusable="false" data-prefix="fas"
+                data-icon="at" class="svg-inline--fa fa-at fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512">
                 <path fill="currentColor"
-                  d="M244.2 217.5l19.3 57.7-59.8 20-19.3-57.7 59.8-20zm41.4 243.7C131.6 507.4 65 471.6 18.8 317.6S8.4 97 162.4 50.8C316.4 4.6 383 40.4 429.2 194.4c46.2 154 10.4 220.6-143.6 266.8zM366.2 265c-3.9-12.2-17.2-18.6-29.4-14.7l-29 9.7-19.3-57.7 29-9.7c12.2-3.9 18.6-17.2 14.7-29.4-3.9-12.2-17.2-18.6-29.4-14.7l-29 9.7-10-30.1c-3.9-12.2-17.2-18.6-29.4-14.7-12.2 3.9-18.6 17.2-14.7 29.4l10 30.1-59.8 20.1-10-30.1c-3.9-12.2-17.2-18.6-29.4-14.7-12.2 3.9-18.6 17.2-14.7 29.4l10 30.1-29 9.7c-12.2 3.9-18.6 17.2-14.7 29.4 3.2 9.3 12.2 15.4 21.5 15.8 4.3.6 7.7-1 36.9-10.7l19.3 57.7-29 9.7c-12.2 3.9-18.6 17.2-14.7 29.4 3.2 9.3 12.2 15.4 21.5 15.8 4.3.6 7.7-1 36.9-10.7l10 30.1c3.7 10.8 15.8 18.6 29.4 14.7 12.2-3.9 18.6-17.2 14.7-29.4l-10-30.1 59.8-20.1 10 30.1c3.7 10.8 15.8 18.6 29.4 14.7 12.2-3.9 18.6-17.2 14.7-29.4l-10-30.1 29-9.7c12.2-4.2 18.6-17.5 14.7-29.6z">
+                  d="M256 8C118.941 8 8 118.919 8 256c0 137.059 110.919 248 248 248 48.154 0 95.342-14.14 135.408-40.223 12.005-7.815 14.625-24.288 5.552-35.372l-10.177-12.433c-7.671-9.371-21.179-11.667-31.373-5.129C325.92 429.757 291.314 440 256 440c-101.458 0-184-82.542-184-184S154.542 72 256 72c100.139 0 184 57.619 184 160 0 38.786-21.093 79.742-58.17 83.693-17.349-.454-16.91-12.857-13.476-30.024l23.433-121.11C394.653 149.75 383.308 136 368.225 136h-44.981a13.518 13.518 0 0 0-13.432 11.993l-.01.092c-14.697-17.901-40.448-21.775-59.971-21.775-74.58 0-137.831 62.234-137.831 151.46 0 65.303 36.785 105.87 96 105.87 26.984 0 57.369-15.637 74.991-38.333 9.522 34.104 40.613 34.103 70.71 34.103C462.609 379.41 504 307.798 504 232 504 95.653 394.023 8 256 8zm-21.68 304.43c-22.249 0-36.07-15.623-36.07-40.771 0-44.993 30.779-72.729 58.63-72.729 22.292 0 35.601 15.241 35.601 40.77 0 45.061-33.875 72.73-58.161 72.73z">
                 </path>
-              </svg><!-- <i class="fab fa-slack"></i> --></a>
+              </svg><!-- <i class="fab fa-github"></i> --></a>
           </li>
         </ul>
       </nav>
@@ -86,7 +92,7 @@
   <section class="fdb-block fp-active" style="background-color: #1b1b1b; margin-bottom: -3%" data-block-type="features"
     data-id="1">
 
-    <div class="container">
+    <div class="container" id="desc-button-group">
       <div class="row text-center" style=" margin-top: -8%; margin-bottom: -2%;">
         <div class="col-12" style="z-index: 10000;">
           <h1 style="font-weight: 300; color: #fafafa">Projetos</h1>
@@ -95,42 +101,40 @@
 
       <div class="row text-center justify-content-center mt-5" id="desc-group">
         <div class="col-10 col-sm-3 pt-5 pt-sm-0" style="z-index: 10000;">
-          <p>
-            <button class="panel" style="background-color: #21232500; outline: none;" type="button"
-              data-toggle="collapse" data-target="#desktop-desc" aria-expanded="false" aria-controls="desktop-desc">
-              <img alt="image" class="img-fluid rounded" src="./img/content/desktop.jpg">
-            </button>
-          </p>
+          <button class="panel img-hover" style="background-color: #21232500; outline: none; margin-bottom: -1%;"
+            type="button" data-toggle="collapse" data-target="#desktop-desc" aria-expanded="false"
+            aria-controls="desktop-desc">
+            <figure class="rounded"><img alt="image" class="img-fluid rounded" src="./img/content/desktop.jpg"></figure>
+          </button>
           <h3 style="color: #fafafa"><strong>Webapp de Uso Interno</strong></h3>
         </div>
 
         <div class="col-10 col-sm-3 pt-5 pt-sm-0" style="z-index: 10000;">
-          <p>
-            <button class="panel" style="background-color: #21232500; outline: none;" type="button"
-              data-toggle="collapse" data-target="#mobile-desc" aria-expanded="false" aria-controls="mobile-desc">
-              <img alt="image" class="img-fluid rounded" src="./img/content/mobileapp1.jpg">
-            </button>
-          </p>
+          <button class="panel img-hover" style="background-color: #21232500; outline: none; margin-bottom: -1%;"
+            type="button" data-toggle="collapse" data-target="#mobile-desc" aria-expanded="false"
+            aria-controls="mobile-desc">
+            <figure class="rounded"><img alt="image" class="img-fluid rounded" src="./img/content/mobileapp1.jpg">
+            </figure>
+          </button>
           <h3 style="color: #fafafa"><strong>Mobileapp de Uso Interno</strong></h3>
         </div>
 
         <div class="col-10 col-sm-3 pt-5 pt-sm-0" style="z-index: 10000;">
-          <p>
-            <button class="panel" style="background-color: #21232500; outline: none;" type="button"
-              data-toggle="collapse" data-target="#marins-desc" aria-expanded="false" aria-controls="marins-desc">
-              <img alt="image" class="img-fluid rounded" src="./img/content/mobileapp2.jpg">
-            </button>
-          </p>
+          <button class="panel img-hover" style="background-color: #21232500; outline: none; margin-bottom: -1%;"
+            type="button" data-toggle="collapse" data-target="#marins-desc" aria-expanded="false"
+            aria-controls="marins-desc">
+            <figure class="rounded"><img alt="image" class="img-fluid rounded" src="./img/content/mobileapp2.jpg">
+            </figure>
+          </button>
           <h3 style="color: #fafafa"><strong>Marins & Meyer Advogados</strong></h3>
         </div>
 
         <div class="col-10 col-sm-3 pt-5 pt-sm-0" style="z-index: 10000;">
-          <p>
-            <button class="panel" style="background-color: #21232500; outline: none;" type="button"
-              data-toggle="collapse" data-target="#aurora-desc" aria-expanded="false" aria-controls="aurora-desc">
-              <img alt="image" class="img-fluid rounded" src="./img/content/aurora.jpg">
-            </button>
-          </p>
+          <button class="panel img-hover" style="background-color: #21232500; outline: none; margin-bottom: -1%;"
+            type="button" data-toggle="collapse" data-target="#aurora-desc" aria-expanded="false"
+            aria-controls="aurora-desc">
+            <figure class="rounded"><img alt="image" class="img-fluid rounded" src="./img/content/aurora.jpg"></figure>
+          </button>
           <h3 style="color: #fafafa"><strong>Aurora Project</strong></h3>
         </div>
       </div>
@@ -140,8 +144,46 @@
       <div class="collapse" style="margin-top: 2%; margin-left: 2%; margin-right: 2%; margin-bottom: -2%;"
         id="aurora-desc">
         <div class="card card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim
-          keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+          <h2 style="font-weight: 300; text-align: center;">Videogame: Aurora Project</h2>
+          <hr>
+          <p style="color: #1b1b1b; text-align: center; font-weight: 400;">Aurora Project foi uma ambiciosa tentativa de
+            construir um Action RPG para usar como Trabalho de Conclusão de Curso durante o curso de Desenvolvimento de
+            Jogos Digitais; foi usado várias técnologias novas de época e uma das engines mais usadas. Minha parte foi
+            crucial no projeto pois era o Programador Principal durante o desenvolvimento, encarregado tambem de
+            resolver qualquer problema relacionado a Engine; alem disso, editei e gravei um Teaser para ser mostrado na
+            apresentação do TCC.</p>
+          <hr style="margin-top: 0%;">
+          <div id="carouselAurora" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselAurora" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselAurora" data-slide-to="1"></li>
+              <li data-target="#carouselAurora" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/content/aurora/sword.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/content/aurora/forest.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/content/aurora/aurora.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselAurora" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselAurora" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Proximo</span>
+            </a>
+          </div>
+          <hr>
+          <button type="button" class="btn btn-success video-btn btn-block" data-toggle="modal"
+            data-src="https://www.youtube.com/embed/sdxa9D6Da0o" data-target="#videoModal">
+            Ver Video
+          </button>
         </div>
       </div>
     </div>
@@ -150,8 +192,45 @@
       <div class="collapse" style="margin-top: 2%; margin-left: 2%; margin-right: 2%; margin-bottom: -2%;"
         id="marins-desc">
         <div class="card card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim
-          keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+          <h2 style="font-weight: 300; text-align: center;">Sociedade de Advogados: Marins & Meyer</h2>
+          <hr>
+          <p style="color: #1b1b1b; text-align: center; font-weight: 400;">O Website foi construido a pedido do
+            escritório de
+            advocacia Marins & Meyer, é um simples website com o objetivo de ser um container de informações uteis para
+            clientes
+            que estão a procura de advogados. Foi desenvolvido usando Bootstrap e JQuery, com assets feitos usando
+            Photoshop.</p>
+          <hr style="margin-top: 0%;">
+
+          <div id="carouselMarinsMeyer" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselMarinsMeyer" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselMarinsMeyer" data-slide-to="1"></li>
+              <li data-target="#carouselMarinsMeyer" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/content/marinsemeyer/home.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/content/marinsemeyer/about.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/content/marinsemeyer/local.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselMarinsMeyer" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselMarinsMeyer" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Proximo</span>
+            </a>
+          </div>
+          <hr>
+          <a href="http://www.marinsemeyeradvogados.com.br/index.html" role="button"
+            class="btn btn-success btn-lg btn-block">Acessar Website</a>
         </div>
       </div>
     </div>
@@ -160,8 +239,43 @@
       <div class="collapse" style="margin-top: 2%; margin-left: 2%; margin-right: 2%; margin-bottom: -2%;"
         id="mobile-desc">
         <div class="card card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim
-          keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+          <h2 style="font-weight: 300; text-align: center;">Mobileapp de Uso Interno</h2>
+          <hr>
+          <p style="color: #1b1b1b; text-align: center; font-weight: 400;">O Mobileapp foi criado para auxiliar o
+            Trabalho
+            de funcionarios de campo a fazer leituras, junto com o Webapp, o processo se torna muito mais produtivo e
+            facil
+            de se fazer. Foi usado Flutter e sua linguagem Dart em sua produção. O Aplicativo tambem usou Firebase,
+            especificamente
+            o modulo de Autenticação e de Banco de Dados.
+          </p>
+          <hr style="margin-top: 0%;">
+
+          <div id="carouselMobileApp" class="carousel slide d-flex align-self-center" style="width: 20%;"
+            data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselMobileApp" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselMobileApp" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/content/mobileapp/home.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/content/mobileapp/certificado.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselMobileApp" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon rounded" style="background-color: #21232540"
+                aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselMobileApp" role="button" data-slide="next">
+              <span class="carousel-control-next-icon rounded" style="background-color: #21232540"
+                aria-hidden="true"></span>
+              <span class="sr-only">Proximo</span>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -170,15 +284,70 @@
       <div class="collapse" style="margin-top: 2%; margin-left: 2%; margin-right: 2%; margin-bottom: -2%;"
         id="desktop-desc">
         <div class="card card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim
-          keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+          <h2 style="font-weight: 300; text-align: center;">Webapp de Uso Interno</h2>
+          <hr>
+          <p style="color: #1b1b1b; text-align: center; font-weight: 400;">O Webapp foi criado como uma tentativa de
+            melhorar um processo de geração de certificados, os certificados seriam colonizados com informações de um
+            servidor
+            Firebase e transformadas em Excel para Impressão. Informações adicionais do Usuário usando o Webapp poderiam
+            ser
+            acessadas. Esse Webapp não está pronto e seu código é privado. Foi usado Angular Bleeding edge, junto com
+            bibliotecas do Firebase (includindo Banco de Dados e Autenticação) e outras para geração dos certificados.
+          </p>
+          <hr style="margin-top: 0%;">
+
+          <div id="carouselDesktopApp" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselDesktopApp" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselDesktopApp" data-slide-to="1"></li>
+              <li data-target="#carouselDesktopApp" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/content/webapp/login.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/content/webapp/certificados.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/content/webapp/conta.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselDesktopApp" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon rounded" style="background-color: #21232540"
+                aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselDesktopApp" role="button" data-slide="next">
+              <span class="carousel-control-next-icon rounded" style="background-color: #21232540"
+                aria-hidden="true"></span>
+              <span class="sr-only">Proximo</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <!-- 16:9 aspect ratio -->
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always"
+                allow="autoplay"></iframe>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <footer class="fdb-block footer-small fp-active" style="background-color: #1f1f1f;" data-block-type="footers"
-    data-id="1">
+  <footer class="fdb-block footer-small fp-active" style="background-color: #1f1f1f; margin-top: -5%;"
+    data-block-type="footers" data-id="1">
     <div class="container">
       <div class="row text-center">
         <div class="col fr-box" role="application" style="z-index: 10000;">
@@ -194,15 +363,17 @@
     </div>
   </footer>
 
-  <script src="" async defer></script>
-  <script src="https://code.jquery.com/jquery-3.1.1.min.js"
-    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <!--Javascript de Distribuições-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js"
     integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH"
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/froala-editor@2.9.1/js/froala_editor.pkgd.min.js"></script>
+
+  <!--Javascript Pessoais-->
   <script src="./js/animatedtitle.js"></script>
   <script src="./js/desc.js"></script>
 </body>
