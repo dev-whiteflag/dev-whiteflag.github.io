@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{"1UZS":function(t,e,n){},"8+Ji":function(t,e,n){t.exports=n.p+"static/Pinkerton_Script-Regular-144be5f4c70197e10d5d37dca9506731.otf"},EDuE:function(t,e,n){},RXBc:function(t,e,n){"use strict";n.r(e);var c=n("q1tI"),i=n.n(c);n("1UZS"),n("8+Ji"),n("EDuE");e.default=function(){return i.a.createElement("div",null,i.a.createElement("h1",{className:"text"},"Whiteflag"))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-e4b7185a4fb4202a8225.js.map

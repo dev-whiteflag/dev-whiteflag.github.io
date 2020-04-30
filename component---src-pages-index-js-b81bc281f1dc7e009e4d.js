@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{"1UZS":function(n,e,t){},EDuE:function(n,e,t){},RXBc:function(n,e,t){"use strict";t.r(e);var c=t("q1tI"),u=t.n(c);t("1UZS"),t("EDuE");e.default=function(){return u.a.createElement("div",{className:"background"},u.a.createElement("h1",null,"hello world"))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-b81bc281f1dc7e009e4d.js.map
